@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    height: 733px;
+    background-image: url('background-image.jpg');
+}
+
+.layer {
+    background-color: rgba(73, 73, 73, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 733px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 25px 0px 5px;
+    cursor: pointer;
+}
+
+.header img {
+    width: 167px;
+    height: 50px;
+
+}
+
+.header button {
+    width: 84px;
+    height: 34px;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.heading {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.heading>h1 {
+    width: 65%;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.small-heading {
+    font-size: 20px;
+    margin: 35px 0px 20px 0px;
+}
+
+.search-bar {
+    width: 650px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+}
+
+.search-bar input {
+    height: 100%;
+    border: 1px solid rgb(39, 39, 39);
+    font-size: 22px;
+    padding: 0px 12px;
+    width: 450px;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar button {
+    width: 200px;
+    height: 100%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.main-div{
+    background-color: rgb(59, 59, 59);
+}
+.first-sec {
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin: 10px 0px ;
+
+}
+
+.image-sec img {
+    width: 490px;
+    height: 350px;
+}
+.content{
+    width: 500px;
+}
+
+
+.content h1 {
+
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.content h6 {
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+    
+}
+
+.second-sec{
+    flex-direction: row-reverse;
+}
+.third-sec{
+    justify-content: space-around;
+}
+.fourth-sec{
+    flex-direction: row-reverse;
+}
